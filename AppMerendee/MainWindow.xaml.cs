@@ -102,7 +102,7 @@ namespace AppMerendee
         {
             using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"ListaMerende.txt"))
             {
-                file.Write($"{Txt_classe.Text} con totale spesa {Txt_spesa.Text}, per le seguenti merende:");    
+                file.Write($"{Txt_classe.Text} con totale spesa {Txt_spesa.Text}, per le seguenti merende:");     
 
                 foreach (Merenda ms in Lst_mselezionate.Items)
                 {
